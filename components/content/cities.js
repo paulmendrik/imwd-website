@@ -16,8 +16,8 @@ We Work with clients everywhere.
 {props.map((prop, i) => (
 <Box>
 <Box 
- w={[24,32]} 
- h={[24,32]}
+ w={[12,24]} 
+ h={[12,24]}
 textAlign={'center'}
 backgroundImage={urlFor(prop.city).url()}
 backgroundRepeat={'no-repeat'}
@@ -25,7 +25,7 @@ backgroundPosition={'center'}
 backgroundSize={'100%'}
 />
 <Box py={'1rem'}>
-<Text as={"caption"}  w={[24,32]}   fontWeight={'extrabold'} fontSize={["0.75rem","1rem"]}>{prop.title}</Text>
+<Text as={"caption"}  w={[12,24]}   fontWeight={'extrabold'} fontSize={["0.75rem","1rem"]}>{prop.title}</Text>
 </Box>
 </Box>
 ))}
