@@ -32,8 +32,8 @@ return (
 <DrawerContent bg={"#C4F4D4"} >
 <Box 
 pos={'absolute'} 
-top={"2rem"} 
-right={"2rem"} 
+top={"0.5rem"} 
+right={"0.5rem"} 
 onClick={onClose}
 >
 <Close/> 

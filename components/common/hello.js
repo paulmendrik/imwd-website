@@ -1,4 +1,5 @@
 import React, { Fragment, useRef } from 'react';
+import NextLink from 'next/link';
 import { motion, isValidMotionProp } from "framer-motion";
 import { Close } from './close';
 import { Details } from './details';
@@ -27,7 +28,15 @@ const btnRef = useRef();
 return (
 
 <Fragment>
-<Button className='hello' ref={btnRef} fontSize={["1rem", "2.25rem"]}  onClick={onOpen} >Contact Us</Button>
+<Link 
+ref={btnRef}
+p={"0.5rem"} 
+backgroundColor={'#148C6C'} 
+fontSize={["1.5rem", "2.25rem"]}  
+onClick={onOpen} 
+color={"#FFFFFF"}
+>Contact
+</Link>
 <Drawer isOpen={isOpen} placement='right' size={'full'} onClose={onClose} finalFocusRef={btnRef}>
 <DrawerOverlay />
 <DrawerContent bg={"#C4F4D4"} >

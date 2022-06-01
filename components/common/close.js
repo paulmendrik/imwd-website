@@ -8,7 +8,7 @@ import { Circle} from '@chakra-ui/react';
 export const Close = () => {
 
 return (
-<Circle size={'4rem'} bg={'black'}>
+<Circle size={'3rem'} bg={'black'}>
 <motion.button
 whileHover={{
     rotate: 180,
@@ -19,7 +19,7 @@ whileTap={{
 }}
 transition= {{ type: 'spring'}}
 >
-<CloseIcon w={'2rem'} h={'2rem'}/>
+<CloseIcon w={'1.5rem'} h={'1.5rem'}/>
 </motion.button>
 </Circle>
 )

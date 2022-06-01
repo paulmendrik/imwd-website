@@ -12,7 +12,7 @@ return (
 <Header/>
 <Hero/>
 <Box
-px={"4rem"} 
+px={["1rem", "4rem"]} 
 py={"1rem"} 
 width="full"
 >

@@ -4,9 +4,9 @@ import { Hello } from './hello';
 import { 
 Box,
 Flex,
-List,
-ListItem,
+Image,
 SimpleGrid,
+Stack,
 Text,
 } from '@chakra-ui/react';
 import { EmailIcon, PhoneIcon } from '@chakra-ui/icons';
@@ -21,49 +21,22 @@ return (
 <Fragment>
 
 
-<Box p={"2rem"}  bg={"#E4FCEC"}    mb={["3rem", "6rem"]}>
-<SimpleGrid  columns={[1,2]}  spacing={10}>
+<Box  p={["1rem","3rem"]} height={"auto"}  bg={"#E4FCEC"} >
+<SimpleGrid  columns={[1,2]}  spacing={[4,6]}>
 <ImageFadeIn>
 <Flex
-display={'block'}
-alignContent={'center'}
-alignItems={'center'}
-minHeight={["162px", "480px"]}
-backgroundImage="url('/connect.svg')"
-backgroundRepeat={'no-repeat'}
-backgroundPosition={'center'}
-backgroundSize={'100%'} 
-/>
-</ImageFadeIn>
-<Box 
-className='hello'
-display="flex" 
-alignContent="center" 
-alignItems="center"
-backgroundImage="url('/logo-sign.svg')"
-backgroundRepeat={'no-repeat'}
-backgroundPosition="center"
+justifyContent={"center"}
+height={"100%"}
+backgroundSize={'contain'} 
 >
-<List w={"100%"}>
-
-<ListItem>
-<Text as="p" fontSize={["1rem", "3rem"]}>Need help with a project?</Text>
-</ListItem>
-
-<ListItem>
-<Text as="h2" fontSize={["2rem", "6rem"]}>Let's talk!</Text>
-</ListItem>
-
-<ListItem>
+<Image src={'/connect.svg'} />
+</Flex>
+</ImageFadeIn>
+<Stack className='hello' width={"full"} >
+<Text>Need help with a project?</Text>
+<Text as="h2">Let's talk!</Text>
 <Hello/>
-</ListItem>
-
-</List>
-
-
-
- 
-</Box>
+</Stack>
 </SimpleGrid>
 </Box>
 </Fragment>

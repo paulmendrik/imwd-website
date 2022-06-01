@@ -8,7 +8,7 @@ export const Header = () => {
 
 return (
 <Fragment>
-<Flex className='header' px={"4rem"} py={"2rem"} alignItems={'center'}  >
+<Flex className='header'  p={["1rem","3rem"]} alignItems={'center'}  >
 <Box>
 <NextLink href="/">
 <Link><Image src="/logo.svg" alt="logo"/></Link>

@@ -13,7 +13,7 @@ return (
 <NextLink href="/">
 <Link><Image src="/logo-sign-sml.svg" alt="logo" w={"24px"} h={"24px"} /></Link>
 </NextLink>
-<Text fontSize={"1.5rem"}> © 2022 IMWD. All rights reserved</Text>
+<Text fontSize={["1rem", "1.5rem"]}> © 2022 IMWD. All rights reserved</Text>
 </HStack>
 </Box>
 </Flex>

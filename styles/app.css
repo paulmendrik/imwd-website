@@ -5,11 +5,11 @@
 body{
 font-family: 'Heebo', sans-serif !important;
 font-variation-settings: 'wght' 400;
+font-optical-sizing: auto;
 color: #222;
 }
 
 html {
-  font-size: 62.5%;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing:antialiased;
 }
@@ -27,16 +27,17 @@ html {
 
 
 h1 {
-  font-variation-settings: 'wght' 800 !important;
-  font-variant: small-caps;
-  text-transform:capitalize;
+  font-variation-settings: 'wght' 700 !important;
+  font-variant: small-caps !important;
+  font-size: 4vw !important;
   color: #000 !important;
 }
 
 
 h2 {
-  font-variation-settings: 'wght' 800 !important;
+  font-variation-settings: 'wght' 700 !important;
   text-transform: uppercase !important;
+  font-size: 2.75vw !important;
   color: #000 !important;
 }
 
@@ -49,32 +50,24 @@ h3.logo {
   text-decoration: none !important;
 }
 
-
 p {
-  padding: 0 !important;
-  font-variation-settings: 'wght' 400 ;
-  line-height: 1.4 !important;
+  padding: 0.25rem 0 !important;
+  font-variation-settings: 'wght' 400 !important;
+  line-height: 1.25 !important;
+  font-size: 1.125vw !important;
 }
 
 
-.icons  caption{
-  text-transform: uppercase !important;
-  font-variation-settings: 'wght' 500 !important;
-  color: #f5333f !important;
-  text-align: center !important;
+.hero p {
+  font-size: 1.5vw !important;
 }
 
-.cities  p {
+
+.cities caption{
   text-transform: uppercase !important;
   font-variation-settings: 'wght' 900 !important;
-  color: #3e3180 !important;
   text-align: center !important;
-}
-
-.icons h4 {
-  text-transform: none !important;
-  font-variation-settings: 'wght' 600 !important;
-  color: #000 !important;
+  color: #3e3180 !important;
 }
 
 
@@ -95,10 +88,7 @@ a:hover {
 }
 
 
-li {
-  padding: 0.5rem 0 !important;
-  list-style-position: inside !important;
-}
+
 
 
 .footer {
@@ -121,13 +111,12 @@ li {
 .form h2 {
   font-variation-settings: 'wght' 400 !important;
   text-transform: none !important;
-  color: rgba(25, 25, 25, .6) !important;
+  color: black !important;
 }
 
 .form p {
-
   font-variation-settings: 'wght' 400 !important;
-  color: rgba(25, 25, 25, .6) !important;
+  color: black !important;
 }
 
 .form  input {
@@ -145,6 +134,7 @@ li {
   padding-bottom: 2rem !important;
   font-variation-settings: 'wght' 350 !important;
   color: rgba(25, 25, 25, .6) !important;
+  font-size: 1rem !important;
 }
 
 .form textarea {
@@ -155,14 +145,13 @@ li {
 .form textarea::placeholder {
   padding: 0 !important;
   font-variation-settings: 'wght' 350 !important;
+  font-size: 1rem !important;
   color: rgba(25, 25, 25, .6) !important;
 }
 
 .form button {
   background-color: #148C6C !important;
-  border: none !important;
-  text-transform: uppercase !important;
-  color: #ffffff;
+  color: #ffffff !important;
   width: 100% !important;
 }
 
@@ -170,28 +159,16 @@ li {
   text-align: center !important;
 }
 
-.hello p, .hello h2{
-  text-align: center !important;
+
+.hello h2 {
+  font-size: 4vw !important;
   color: #048444 !important;
 }
 
-button.hello {
-  padding: 3rem !important;
-  background-color: #04844C !important;
-  border: none !important;
-  text-transform: uppercase !important;
-  color: #ffffff;
+.hello p {
+  font-size: 2.5vw !important;
+  color: #048444 !important;
 }
-
-
-
-
-
-
-
-
-
-
 
 .details {
   animation: flip 2s  cubic-bezier(0.93, 0.05, 0.9, 0.71) 2;
