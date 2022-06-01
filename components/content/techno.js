@@ -42,28 +42,28 @@ The tech world is full of changes which is why we make sure to adapt to new adva
 <SimpleGrid  columns={4} >
 <Box display={"flex"}  alignItems={"center"} alignContent={"center"}>
 <Stack>
-<Icon as={SiGatsby}  w={[12,32]} h={[12,32]}  color='#663399' />
+<Icon as={SiGatsby} w={[12,24]} h={[12,24]}   color='#663399' />
 <Text as={'caption'} fontSize={["1rem", "1.25rem"]}>Gatsby</Text>
 </Stack>
 </Box>
 
 <Box display={"flex"}  alignItems={"center"} alignContent={"center"}>
 <Stack>
-<Icon as={SiReact}w={[12,32]} h={[12,32]} color='#61dafb' />
+<Icon as={SiReact} w={[12,24]} h={[12,24]} color='#61dafb' />
 <Text as={'caption'} fontSize={["1rem", "1.25rem"]} >React</Text>
 </Stack>
 </Box>
 
 <Box display={"flex"}  alignItems={"center"} alignContent={"center"}>
 <Stack>
-<Icon as={SiSvelte} w={[12,32]} h={[12,32]}  color='#FF3E00' />
+<Icon as={SiSvelte} w={[12,24]} h={[12,24]}   color='#FF3E00' />
 <Text as={'caption'} fontSize={["1rem", "1.25rem"]} >Svelte</Text>
 </Stack>
 </Box>
 
 <Box display={"flex"}  alignItems={"center"} alignContent={"center"}>
 <Stack>
-<Icon as={SiTypescript} w={[12,32]} h={[12,32]} color='#3178c6' />
+<Icon as={SiTypescript} w={[12,24]} h={[12,24]} color='#3178c6' />
 <Text as={'caption'} fontSize={["1rem", "1.25rem"]} >Typescript</Text>
 </Stack>
 </Box>
@@ -77,28 +77,28 @@ The tech world is full of changes which is why we make sure to adapt to new adva
 <SimpleGrid columns={4}>
 <Box display={"flex"}  alignItems={"center"} alignContent={"center"}>
 <Stack>
-<Icon as={SiShopify} w={[12,32]} h={[12,32]} color={'#96bf48'} />
+<Icon as={SiShopify}w={[12,24]} h={[12,24]} color={'#96bf48'} />
 <Text as={'caption'} fontSize={["1rem", "1.25rem"]} >Shopify</Text>
 </Stack>
 </Box>
 
 <Box display={"flex"}  alignItems={"center"} alignContent={"center"}>
 <Stack>
-<Icon as={SiSellfy} w={[12,32]} h={[12,32]} color={"#00B140"} />
+<Icon as={SiSellfy} w={[12,24]} h={[12,24]} color={"#00B140"} />
 <Text as={'caption'} fontSize={["1rem", "1.25rem"]} >Sellfy</Text>
 </Stack>
 </Box>
 
 <Box display={"flex"}  alignItems={"center"} alignContent={"center"}>
 <Stack>
-<Icon as={SiMagento} w={[12,32]} h={[12,32]} color={"#f46f25"} />
+<Icon as={SiMagento} w={[12,24]} h={[12,24]} color={"#f46f25"} />
 <Text as={'caption'} fontSize={["1rem", "1.25rem"]} >Magento</Text>
 </Stack>
 </Box>
 
 <Box display={"flex"}  alignItems={"center"} alignContent={"center"}>
 <Stack>
-<Icon as={SiPrestashop} w={[12,32]} h={[12,32]} color={"#df0067"} />
+<Icon as={SiPrestashop} w={[12,24]} h={[12,24]} color={"#df0067"} />
 <Text as={'caption'} fontSize={["1rem", "1.25rem"]} >Prestashop</Text>
 </Stack>
 </Box>
@@ -113,14 +113,14 @@ The tech world is full of changes which is why we make sure to adapt to new adva
 <SimpleGrid columns={4} >
 <Box display={"flex"}  alignItems={"center"} alignContent={"center"}>
 <Stack>
-<Icon as={SiContentful} w={[12,32]} h={[12,32]} color={"#3ab2e6"} />
+<Icon as={SiContentful} w={[12,24]} h={[12,24]} color={"#3ab2e6"} />
 <Text as={'caption'} fontSize={["1rem", "1.25rem"]} >Contentful</Text>
 </Stack>
 </Box>
 
 <Box display={"flex"}  alignItems={"center"} alignContent={"center"}>
 <Stack>
-<Icon as={SiStoryblok} w={[12,32]} h={[12,32]} color={"#09b3af"} />
+<Icon as={SiStoryblok} w={[12,24]} h={[12,24]}  color={"#09b3af"} />
 <Text as={'caption'} fontSize={["1rem", "1.25rem"]} >Storyblok</Text>
 </Stack>
 </Box>
@@ -134,7 +134,7 @@ The tech world is full of changes which is why we make sure to adapt to new adva
 
 <Box display={"flex"}  alignItems={"center"} alignContent={"center"}>
 <Stack>
-<Icon as={SiNetlify} w={[12,32]} h={[12,32]} color={"#25c7b7"} />
+<Icon as={SiNetlify} w={[12,24]} h={[12,24]}  color={"#25c7b7"} />
 <Text as={'caption'} fontSize={["1rem", "1.25rem"]} >Netlify</Text>
 </Stack>
 </Box>
