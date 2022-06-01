@@ -36,10 +36,12 @@ The tech world is full of changes which is why we make sure to adapt to new adva
 </Box>
 
 
-<Box py={["1rem", "2rem"]} w={"100%"}>
+
+<Box display={"flex"} py={["1rem", "2rem"]} alignContent={"center"} justifyContent="center" alignItems={"center"} w={"full"}>
 <Text as="h4" pb={["1rem", "2rem"]}>Frontend Build</Text>
 <ImageFadeIn>
 <SimpleGrid  columns={4} >
+
 <Box display={"flex"}  alignItems={"center"} alignContent={"center"}>
 <Stack>
 <Icon as={SiGatsby} w={[12,24]} h={[12,24]}   color='#663399' />
@@ -71,10 +73,11 @@ The tech world is full of changes which is why we make sure to adapt to new adva
 </ImageFadeIn>
 </Box>
 
-<Box py={["1rem", "2rem"]} w={"full"} >
+<Box display={"flex"} py={["1rem", "2rem"]} alignContent={"center"} justifyContent="center" alignItems={"center"} w={"full"}>
 <Text as="h4"  pb={["1rem", "2rem"]} fontSize={["1rem", "1.75rem"]}>Headless eCommerce Integration</Text>
 <ImageFadeIn>
 <SimpleGrid columns={4}>
+
 <Box display={"flex"}  alignItems={"center"} alignContent={"center"}>
 <Stack>
 <Icon as={SiShopify}w={[12,24]} h={[12,24]} color={'#96bf48'} />
@@ -107,11 +110,12 @@ The tech world is full of changes which is why we make sure to adapt to new adva
 </ImageFadeIn>
 </Box>
 
-<Box py={["1rem", "2rem"]} w={"100%"} >
+<Box display={"flex"} py={["1rem", "2rem"]} alignContent={"center"} justifyContent="center" alignItems={"center"} w={"full"}>
 <Text as="h4"  pb={["1rem", "2rem"]} fontSize={["1rem", "1.75rem"]}>Headless CMS Integration</Text>
 <ImageFadeIn>
 <SimpleGrid columns={4} >
-<Box display={"flex"}  alignItems={"center"} alignContent={"center"}>
+
+<Box display={"flex"}  alignItems={"center"} alignContent={"center"} >
 <Stack>
 <Icon as={SiContentful} w={[12,24]} h={[12,24]} color={"#3ab2e6"} />
 <Text as={'caption'} fontSize={["1rem", "1.25rem"]} >Contentful</Text>
