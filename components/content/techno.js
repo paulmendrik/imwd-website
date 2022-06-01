@@ -1,7 +1,7 @@
 import React, {Fragment} from 'react';
 import { ImageFadeIn } from "../framer/image-fade-in";
 import { TextSlideTop } from "../framer/text-slide-top";
-import { Box, Flex, Heading, Icon, SimpleGrid, Stack, Text } from '@chakra-ui/react';
+import { Box, Heading, Icon, SimpleGrid, Stack, Text } from '@chakra-ui/react';
 import {
 SiGatsby, 
 SiReact,
@@ -36,73 +36,76 @@ The tech world is full of changes which is why we make sure to adapt to new adva
 </Box>
 
 
+<Stack>
 
-<Box py={["1rem", "2rem"]} alignContent={"center"} justifyContent="center" alignItems={"center"} w={"full"}>
-<Text as="h4" pb={["1rem", "2rem"]}>Frontend Build</Text>
+<Box py={["1rem", "2rem"]}  w={"full"}>
+
+<Text as="h4" pb={["1rem", "2rem"]} >Frontend Build</Text>
 <ImageFadeIn>
-<SimpleGrid  columns={4} >
+<SimpleGrid display={"flex"}  columns={4} spacing={[4,8]} justifyContent={"center"} >
 
 <Box display={"flex"}  alignItems={"center"} alignContent={"center"}>
 <Stack>
 <Icon as={SiGatsby} w={[12,24]} h={[12,24]}   color='#663399' />
-<Text as={'caption'} fontSize={["1rem", "1.25rem"]}>Gatsby</Text>
+<Text as={'caption'} fontSize={["0.75rem", "1.25rem"]} >Gatsby</Text>
 </Stack>
 </Box>
 
 <Box display={"flex"}  alignItems={"center"} alignContent={"center"}>
 <Stack>
 <Icon as={SiReact} w={[12,24]} h={[12,24]} color='#61dafb' />
-<Text as={'caption'} fontSize={["1rem", "1.25rem"]} >React</Text>
+<Text as={'caption'} fontSize={["0.75rem", "1.25rem"]} >React</Text>
 </Stack>
 </Box>
 
 <Box display={"flex"}  alignItems={"center"} alignContent={"center"}>
 <Stack>
 <Icon as={SiSvelte} w={[12,24]} h={[12,24]}   color='#FF3E00' />
-<Text as={'caption'} fontSize={["1rem", "1.25rem"]} >Svelte</Text>
+<Text as={'caption'} fontSize={["0.75rem", "1.25rem"]} >Svelte</Text>
 </Stack>
 </Box>
 
 <Box display={"flex"}  alignItems={"center"} alignContent={"center"}>
 <Stack>
 <Icon as={SiTypescript} w={[12,24]} h={[12,24]} color='#3178c6' />
-<Text as={'caption'} fontSize={["1rem", "1.25rem"]} >Typescript</Text>
+<Text as={'caption'} fontSize={["0.75rem", "1.25rem"]} >Typescript</Text>
 </Stack>
 </Box>
 </SimpleGrid>
 </ImageFadeIn>
 </Box>
 
-<Box py={["1rem", "2rem"]} alignContent={"center"} justifyContent="center" alignItems={"center"} w={"full"}>
-<Text as="h4"  pb={["1rem", "2rem"]} fontSize={["1rem", "1.75rem"]}>Headless eCommerce Integration</Text>
+<Box py={["1rem", "2rem"]}  w={"full"}>
+
+<Text as="h4"  pb={["1rem", "2rem"]} >Headless eCommerce Integration</Text>
 <ImageFadeIn>
-<SimpleGrid columns={4}>
+<SimpleGrid display={"flex"}  columns={4} spacing={[4,8]} justifyContent={"center"} >
 
 <Box display={"flex"}  alignItems={"center"} alignContent={"center"}>
 <Stack>
 <Icon as={SiShopify}w={[12,24]} h={[12,24]} color={'#96bf48'} />
-<Text as={'caption'} fontSize={["1rem", "1.25rem"]} >Shopify</Text>
+<Text as={'caption'} fontSize={["0.75rem", "1.25rem"]} >Shopify</Text>
 </Stack>
 </Box>
 
 <Box display={"flex"}  alignItems={"center"} alignContent={"center"}>
 <Stack>
 <Icon as={SiSellfy} w={[12,24]} h={[12,24]} color={"#00B140"} />
-<Text as={'caption'} fontSize={["1rem", "1.25rem"]} >Sellfy</Text>
+<Text as={'caption'} fontSize={["0.75rem", "1.25rem"]} >Sellfy</Text>
 </Stack>
 </Box>
 
 <Box display={"flex"}  alignItems={"center"} alignContent={"center"}>
 <Stack>
 <Icon as={SiMagento} w={[12,24]} h={[12,24]} color={"#f46f25"} />
-<Text as={'caption'} fontSize={["1rem", "1.25rem"]} >Magento</Text>
+<Text as={'caption'} fontSize={["0.75rem", "1.25rem"]} >Magento</Text>
 </Stack>
 </Box>
 
 <Box display={"flex"}  alignItems={"center"} alignContent={"center"}>
 <Stack>
 <Icon as={SiPrestashop} w={[12,24]} h={[12,24]} color={"#df0067"} />
-<Text as={'caption'} fontSize={["1rem", "1.25rem"]} >Prestashop</Text>
+<Text as={'caption'}  fontSize={["0.75rem", "1.25rem"]} >Prestashop</Text>
 </Stack>
 </Box>
 
@@ -110,10 +113,11 @@ The tech world is full of changes which is why we make sure to adapt to new adva
 </ImageFadeIn>
 </Box>
 
-<Box py={["1rem", "2rem"]} alignContent={"center"} justifyContent="center" alignItems={"center"} w={"full"}>
-<Text as="h4"  pb={["1rem", "2rem"]} fontSize={["1rem", "1.75rem"]}>Headless CMS Integration</Text>
+<Box py={["1rem", "2rem"]}  w={"full"}>
+
+<Text as="h4"  pb={["1rem", "2rem"]} >Headless CMS Integration</Text>
 <ImageFadeIn>
-<SimpleGrid columns={4} >
+<SimpleGrid display={"flex"}  columns={4} spacing={[4,8]} justifyContent={"center"} >
 
 <Box display={"flex"}  alignItems={"center"} alignContent={"center"} >
 <Stack>
@@ -131,7 +135,7 @@ The tech world is full of changes which is why we make sure to adapt to new adva
 
 <Box display={"flex"}  alignItems={"center"} alignContent={"center"}>
 <Stack>
-<Icon as={SiStrapi} w={[12,32]} h={[12,32]} color={"#2f2e8b"} />
+<Icon as={SiStrapi} w={[12,24]} h={[12,24]} color={"#2f2e8b"} />
 <Text as={'caption'} fontSize={["1rem", "1.25rem"]} >Strapi</Text>
 </Stack>
 </Box>
@@ -147,6 +151,7 @@ The tech world is full of changes which is why we make sure to adapt to new adva
 </ImageFadeIn>
 </Box>
 
+</Stack>
 </SimpleGrid> 
 </Box>
 </Fragment>
