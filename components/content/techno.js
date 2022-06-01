@@ -37,7 +37,7 @@ The tech world is full of changes which is why we make sure to adapt to new adva
 
 
 
-<Box display={"flex"} py={["1rem", "2rem"]} alignContent={"center"} justifyContent="center" alignItems={"center"} w={"full"}>
+<Box py={["1rem", "2rem"]} alignContent={"center"} justifyContent="center" alignItems={"center"} w={"full"}>
 <Text as="h4" pb={["1rem", "2rem"]}>Frontend Build</Text>
 <ImageFadeIn>
 <SimpleGrid  columns={4} >
@@ -73,7 +73,7 @@ The tech world is full of changes which is why we make sure to adapt to new adva
 </ImageFadeIn>
 </Box>
 
-<Box display={"flex"} py={["1rem", "2rem"]} alignContent={"center"} justifyContent="center" alignItems={"center"} w={"full"}>
+<Box py={["1rem", "2rem"]} alignContent={"center"} justifyContent="center" alignItems={"center"} w={"full"}>
 <Text as="h4"  pb={["1rem", "2rem"]} fontSize={["1rem", "1.75rem"]}>Headless eCommerce Integration</Text>
 <ImageFadeIn>
 <SimpleGrid columns={4}>
@@ -110,7 +110,7 @@ The tech world is full of changes which is why we make sure to adapt to new adva
 </ImageFadeIn>
 </Box>
 
-<Box display={"flex"} py={["1rem", "2rem"]} alignContent={"center"} justifyContent="center" alignItems={"center"} w={"full"}>
+<Box py={["1rem", "2rem"]} alignContent={"center"} justifyContent="center" alignItems={"center"} w={"full"}>
 <Text as="h4"  pb={["1rem", "2rem"]} fontSize={["1rem", "1.75rem"]}>Headless CMS Integration</Text>
 <ImageFadeIn>
 <SimpleGrid columns={4} >
