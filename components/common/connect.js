@@ -23,20 +23,23 @@ return (
 
 <Box  p={["1rem","3rem"]} height={"auto"}  bg={"#E4FCEC"} >
 <SimpleGrid  columns={[1,2]}  spacing={[4,6]}>
-<ImageFadeIn>
 <Flex
 justifyContent={"center"}
 height={"100%"}
 backgroundSize={'contain'} 
 >
+<ImageFadeIn>
 <Image src={'/connect.svg'} />
-</Flex>
 </ImageFadeIn>
+</Flex>
+
+<Box display={"flex"}  alignItems={"center"} alignContent={"center"}>
 <Stack className='hello' width={"full"} >
 <Text>Need help with a project?</Text>
 <Text as="h2">Let's talk!</Text>
 <Hello/>
 </Stack>
+</Box>
 </SimpleGrid>
 </Box>
 </Fragment>

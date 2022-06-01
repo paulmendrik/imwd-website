@@ -5,7 +5,6 @@ import { Close } from './close';
 import { Details } from './details';
 import { 
 Box,
-Button,
 Center,
 chakra,
 Drawer,
@@ -29,13 +28,12 @@ return (
 
 <Fragment>
 <Link 
-ref={btnRef}
-p={"0.5rem"} 
+ref={btnRef} 
 backgroundColor={'#148C6C'} 
-fontSize={["1.5rem", "2.25rem"]}  
+fontSize={["1.5rem", "2rem"]}
 onClick={onOpen} 
 color={"#FFFFFF"}
->Contact
+>Contact Us
 </Link>
 <Drawer isOpen={isOpen} placement='right' size={'full'} onClose={onClose} finalFocusRef={btnRef}>
 <DrawerOverlay />

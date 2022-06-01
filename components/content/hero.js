@@ -18,7 +18,7 @@ backgroundSize={'contain'}
 </Flex>
 <Box display="flex" alignContent="center" alignItems="center">
 <TextSlideTop>
-<Heading as="h1"  mb={"0.25rem"} >Jamstack Development Agency</Heading>
+<Heading as="h1"  mb={"0.25rem"} >Jamstack Development</Heading>
 <Text as="p">
 A new way to build websites and apps.
 Increase conversion and attract more users with superfast and SEO-friendly pages. 
