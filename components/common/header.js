@@ -9,13 +9,13 @@ export const Header = () => {
 return (
 <Fragment>
 <Flex className='header'  p={["1rem","3rem"]} alignItems={'center'}  >
-<Box>
+<Box px={["1rem","3rem"]}>
 <NextLink href="/">
 <Link><Image src="/logo.svg" alt="logo"/></Link>
 </NextLink>  
 </Box>
 <Spacer/>
-<Box>
+<Box px={["1rem","3rem"]}>
 <Contact/>
 </Box>
 </Flex>

@@ -5,8 +5,8 @@ import { Box, Flex, Heading, SimpleGrid,Text } from '@chakra-ui/react';
 
 export const Hero = () => {
 return (
-<Box className="hero" p={["1rem","3rem"]} height={"auto"} >
-<SimpleGrid columns={[1,2]} spacing={[4,6]} >
+<Box className="hero" px={["1rem","3rem"]} py={"1rem"}  height={"auto"} >
+<SimpleGrid px={["1rem","3rem"]} columns={[1,2]} spacing={[4,6]} >
 <Flex 
 className="animation" 
 display={["block", "none"]}  
