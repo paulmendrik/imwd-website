@@ -1,7 +1,7 @@
 import React, {Fragment} from 'react';
 import { urlFor } from 'lib/api';
 import { ImageFadeIn } from 'components/framer';
-import { Box, Flex, Heading, SimpleGrid, Text, } from '@chakra-ui/react';
+import { AspectRatio, Box, Heading, SimpleGrid, Text, } from '@chakra-ui/react';
 
 export const Cities = ({ props }) => {
 return (
@@ -15,6 +15,7 @@ We Work with clients everywhere.
 <SimpleGrid className='cities'   columns={[2,5]} spacing={[4,8]} >
 {props.map((prop, i) => (
 <Box>
+<AspectRatio  ratio={1/1}>
 <Box 
  w={[24,36]} 
  h={[24,36]}
@@ -24,6 +25,7 @@ backgroundRepeat={'no-repeat'}
 backgroundPosition={'center'}
 backgroundSize={'100%'}
 />
+</AspectRatio>
 <Box py={'1rem'}>
 <Text as={"caption"}  w={[24,36]}   fontWeight={'extrabold'} fontSize={["0.75rem","1rem"]}>{prop.title}</Text>
 </Box>

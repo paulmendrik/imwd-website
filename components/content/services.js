@@ -2,7 +2,7 @@ import React, {Fragment} from 'react';
 import { urlFor } from 'lib/api';
 import { ImageFadeIn } from "../framer/image-fade-in";
 import { TextSlideTop } from "../framer/text-slide-top";
-import { Box, Flex, Heading, Image, SimpleGrid,Text } from '@chakra-ui/react';
+import { AspectRatio, Box, Flex, Heading, Image, SimpleGrid,Text } from '@chakra-ui/react';
 import PortableText from 'react-portable-text';
 
 
@@ -21,7 +21,9 @@ justifyContent={"center"}
 height={'100%'}
 backgroundSize={'contain'} 
 >
+<AspectRatio width={'full'}  ratio={16 / 9}>
 <Image src={urlFor(props.image).url()} />
+</AspectRatio>
 </Flex>
 </ImageFadeIn>
 <Box display="flex" alignContent="center" alignItems="center">

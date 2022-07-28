@@ -44,6 +44,7 @@ The tech world is full of changes which is why we make sure to adapt to new adva
 <ImageFadeIn>
 <SimpleGrid display={"flex"}  columns={4} spacing={[4,8]} justifyContent={"center"} >
 
+
 <Box display={"flex"}  alignItems={"center"} alignContent={"center"}>
 <Stack>
 <Icon as={SiGatsby} w={[12,24]} h={[12,24]}   color='#663399' />
