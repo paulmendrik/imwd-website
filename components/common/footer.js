@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react';
 import NextLink from 'next/link';
-import { Box, Container, Flex, HStack, Image, Link, Text, VStack } from '@chakra-ui/react'
+import {AspectRatio, Box, Flex, HStack, Image, Link, Text } from '@chakra-ui/react'
 
 export const Footer = () => {
 
@@ -11,7 +11,11 @@ return (
 <Box m={"auto"}>
 <HStack>
 <NextLink href="/">
-<Link><Image src="/logo-sign-sml.svg" alt="logo" w={"24px"} h={"24px"} /></Link>
+<Link>
+<AspectRatio  ratio={1/1}>
+<Image src="/logo-sign-sml.svg" alt="logo" w={"24px"} h={"24px"} />
+</AspectRatio>
+</Link>
 </NextLink>
 <Text fontSize={["1rem", "1.5rem"]}> © 2022 IMWD. All rights reserved</Text>
 </HStack>

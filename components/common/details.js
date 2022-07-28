@@ -1,5 +1,5 @@
 import React, { Fragment, useRef } from 'react';
-import { Box, Button, chakra, Flex, Image, Input,SimpleGrid, Text, Textarea, VStack } from '@chakra-ui/react';
+import { AspectRatio, Box, Button, chakra, Flex, Image, Input,SimpleGrid, Text, Textarea, VStack } from '@chakra-ui/react';
 import emailjs from '@emailjs/browser';
 
 
@@ -22,7 +22,9 @@ return (
 <Box bg={"#C4F4D4"} p={["1rem","3rem"]} height={"auto"}  >
 <SimpleGrid  columns={[1,2]} spacing={[2,6]} >
 <Flex py={["2", "0"]} justifyContent={"center"} backgroundSize={'contain'}>
+<AspectRatio width={'full'}  ratio={16/9}>
 <Image src={'/contact.svg'} />
+</AspectRatio>
 </Flex>
 <Box display={'flex'} alignContent="center" alignItems="center" >
 <chakra.form className='form' w={"100%"} ref={form} onSubmit={sendEmail}>

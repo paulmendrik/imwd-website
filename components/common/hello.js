@@ -1,5 +1,4 @@
 import React, { Fragment, useRef } from 'react';
-import NextLink from 'next/link';
 import { motion, isValidMotionProp } from "framer-motion";
 import { Close } from './close';
 import { Details } from './details';
